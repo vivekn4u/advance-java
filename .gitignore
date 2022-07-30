@@ -1,0 +1,60 @@
+#ignore workspace folders which should not be in the git repo
+/myjavaproject
+/Servers
+.metadata
+.git
+.gitignore.bak
+
+# Project Ignores Files 
+
+# Maven
+.mvn
+*.classpath
+*.project
+*.settings
+/bin/*
+/target/*
+
+#gradle
+.gradle
+/build
+**/build
+/SimpleServletExample/build
+# Compiled class file
+*.class
+
+# Package Files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings
+
+# Netbeans
+nbactions*.xml
+nb-configuration*.xml
+
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+#Extra Folders
+/unused
+**/.DS_Store
+
+#spring
+.springBeans
