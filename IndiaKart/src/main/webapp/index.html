@@ -1,7 +1,58 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- Font Awesome -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+  rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+  rel="stylesheet"
+/>
+<!-- MDB -->
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"/>
+<link href="assets/css/login.css" rel="stylesheet"/>
+    <title>LOGIN</title>
+</head>
 <body>
-	
-	<p>IndiaKart Login Page!!</p>
-	
+<div class="container login-container">
+            <div class="row rounded login-shadow ">
+                <div class="col-md-9 col-lg-6 col-xl-5 login-img">
+                    <img src="assets/images/IndiaKart_login.png"
+          class="img-fluid rounded-left" alt="Sample image">
+                    
+                </div>
+                <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1 rounded-right login-form-2">
+                    <!-- <div class="login-logo">
+                        <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt=""/>
+                    </div> -->
+                    <form action="auth" method="post">
+                    <h3>Login Form</h3>
+                        <div class="form-group">
+                            <input name="name"
+                            type="text" class="form-control" placeholder="Your Name *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input name="password" type="password" class="form-control" placeholder="Your Password *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" class="btnSubmit" value="Login" />
+                        </div>
+                        <div class="form-group">
+
+                            <a href="#" class="btnForgetPwd" value="Login">Forget Password?</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+<!-- MDB -->
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
 </html>

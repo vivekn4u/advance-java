@@ -10,6 +10,7 @@ import jakarta.servlet.ServletConfig;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.ServletRequest;
 import jakarta.servlet.ServletResponse;
+import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
@@ -19,6 +20,7 @@ import jakarta.servlet.http.HttpServletResponse;
  *	this is a login servlet for IndiaKart
  *HTTP protocol is state less - client browser {ID} 
  */
+
 public class LoginServlet extends HttpServlet {
 	
 	//instance variables

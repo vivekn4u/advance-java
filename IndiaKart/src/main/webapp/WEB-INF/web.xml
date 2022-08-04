@@ -32,4 +32,14 @@
     <servlet-name>Logout</servlet-name>
     <url-pattern>/logout</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>UserAuthServlet</display-name>
+    <servlet-name>UserAuthServlet</servlet-name>
+    <servlet-class>org.cdac.com.view.UserAuthServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserAuthServlet</servlet-name>
+    <url-pattern>/auth</url-pattern>
+  </servlet-mapping>
 </web-app>
