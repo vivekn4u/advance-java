@@ -27,3 +27,6 @@ Learn advance java with me in easy ways
 
 # libraries
 (Lombook)[https://projectlombok.org/download] - 
+
+# IndiaKart mini project documents
+(PPT)[https://docs.google.com/presentation/d/1uy625KzJBYT8Igc79K4zK8pn92zkQEtVrXxZ_TP02mM/edit?usp=sharing]
